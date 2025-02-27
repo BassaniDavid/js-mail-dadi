@@ -18,4 +18,10 @@ for(let i = 0; i < email.length; i++) {
  }
 }
 
-console.log(isUserMailInList)
+if(isUserMailInList){
+    console.log('La tua mail è presente in lista!')
+}
+else {
+    console.log('Purtroppo la tua mail non è presente in lista!')
+}
+    
