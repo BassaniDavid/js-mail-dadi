@@ -8,3 +8,11 @@ procedimento:
 
  Bonus
  Invece di generare il numero random per l'utente, chiedilo con un prompt!
+
+
+ procedimento
+ - chiedere all utente un numero da 1 a 6
+ - controllare che sia un numero
+ - controllare che sia inferiore o uguale a 6
+ - confrontare i 2 numeri+
+ - stampare il risultato
