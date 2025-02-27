@@ -7,3 +7,15 @@
 // Non è necessario provvedere alla validazione delle email
 
 const email = ['a@gmail', 'b@gmail', 'c@gmail', 'd@gmail', 'e@gmail']
+
+const userEmail = prompt ("inserisci la tua email")
+
+let isUserMailInList = false
+
+for(let i = 0; i < email.length; i++) {
+ if(userEmail === email[i]){
+    isUserMailInList = true
+ }
+}
+
+console.log(isUserMailInList)
