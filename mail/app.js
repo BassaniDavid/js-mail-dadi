@@ -6,3 +6,4 @@
 // Nota:
 // Non è necessario provvedere alla validazione delle email
 
+const email = ['a@gmail', 'b@gmail', 'c@gmail', 'd@gmail', 'e@gmail']
