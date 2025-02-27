@@ -8,7 +8,12 @@
 
 let pcRanNum = (Math.floor( Math.random() * 7 ))
 console.log(`'il numero randomico del pc è ${pcRanNum}`)
+
 let userRanNum = (Math.floor( Math.random() * 7 ))
 console.log(`'il tuo numero randomico è ${userRanNum}`)
 
-
+if(userRanNum > pcRanNum){
+    console.log('Complimenti, hai vinto!')
+}else {
+    console.log('Hai perso ;( ritenta!')
+}
